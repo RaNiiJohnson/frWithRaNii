@@ -44,7 +44,7 @@ const TableOfContents = ({ headings }: TableOfContentsProps) => {
               href={`#${heading}`}
               className={`block transition-colors duration-200 hover:text-primary hover:underline ${
                 activeHeading === heading
-                  ? "text-primary font-semibold"
+                  ? "text-violet-600 font-semibold"
                   : "text-muted-foreground"
               }`}
               onClick={() => {

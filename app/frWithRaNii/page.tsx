@@ -17,7 +17,7 @@ export default function FrWithRaNii() {
       {/* Introduction douce */}
       <div className="py-8 space-y-6 text-center">
         <div className="space-y-4">
-          <h1 className="text-4xl font-bold md:text-5xl text-foreground">
+          <h1 className="text-4xl font-bold text-transparent md:text-5xl bg-gradient-to-r from-primary to-purple-600 bg-clip-text">
             Guide des alternatives
           </h1>
           <p className="max-w-3xl mx-auto text-lg leading-relaxed md:text-xl text-muted-foreground">
@@ -80,8 +80,10 @@ export const Page = ({
   return (
     <div id={title}>
       <div className="pb-6 text-4xl font-bold ">
-        <span className="text-primary">#</span>
-        {header}
+        <span className="text-transparent bg-gradient-to-r from-primary to-purple-600 bg-clip-text">
+          #
+        </span>
+        <span>{header}</span>
       </div>
       <div className="prose dark:prose-invert">{children}</div>
     </div>
