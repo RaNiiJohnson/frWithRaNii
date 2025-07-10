@@ -11,6 +11,6 @@ Ce guide t’aide à varier ton français, impressionner tes amis, et briller à
 
 ---
 
-© 2024 frWithRaNii
+© 2025 frWithRaNii
 
 ---
