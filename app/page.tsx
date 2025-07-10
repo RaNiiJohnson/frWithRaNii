@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <div className="p-4 text-center border rounded-lg bg-primary/10 border-primary/20">
-            <div className="text-2xl font-bold text-primary">12+</div>
+            <div className="text-2xl font-bold text-primary">10+</div>
             <div className="text-sm text-muted-foreground">
               Expressions alternatives
             </div>
