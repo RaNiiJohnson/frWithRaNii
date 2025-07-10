@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -105,6 +106,42 @@ export default function Home() {
               constructive.
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* Pub pour vocabapp */}
+      <div className="flex flex-col items-center justify-center max-w-5xl gap-6 p-8 mx-auto mt-16 shadow-lg bg-gradient-to-r from-primary/10 to-purple-100 dark:to-background/30 rounded-xl">
+        <div className="space-y-2 text-center">
+          <h3 className="text-2xl font-bold text-primary">
+            📚 Découvre aussi : VocabApp
+          </h3>
+          <p className="text-lg text-muted-foreground">
+            VocabApp, c’est ton carnet de vocabulaire interactif : ajoute,
+            révise, et maîtrise de nouveaux mots en toute simplicité. Parfait
+            pour booster ton français !
+          </p>
+          <Image
+            width={1000}
+            height={1000}
+            src="/images/intro-vocabapp.png"
+            alt="VocabApp Aperçu"
+            className="object-contain border shadow-md rounded-2xl"
+          />
+          <Image
+            width={1000}
+            height={1000}
+            src="/images/vocabapp1.png"
+            alt="VocabApp Aperçu"
+            className="object-contain border shadow-md rounded-2xl"
+          />
+          <a
+            href="https://github.com/RaNiiJohnson/vocabapp.git" // Mets ici le vrai lien de ton projet
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 mt-3 text-base font-bold text-white transition-all duration-300 transform rounded-full shadow bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 hover:scale-105"
+          >
+            🚀 Voir VocabApp
+          </a>
         </div>
       </div>
     </div>
