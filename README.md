@@ -4,14 +4,6 @@ De surcroît, le français devient ma passion, alors que avant je néglige le fr
 
 ---
 
-## 🧑‍💻 Commandes utiles
-
-- `pnpm dev` : Démarre le serveur de dev (et admire ton œuvre)
-- `pnpm build` : Build de prod, pour briller en société
-- `pnpm lint` : Pour garder un code aussi propre qu’une baguette fraîche
-
----
-
 ## 🤔 Pourquoi ce projet ?
 
 Parce que dire “cool” ou “merci” c’est bien, mais dire “mirifique” ou “mille mercis”, c’est mieux !  
@@ -19,13 +11,6 @@ Ce guide t’aide à varier ton français, impressionner tes amis, et briller à
 
 ---
 
-## 🤝 Contribuer
-
-Une idée ? Une expression à ajouter ?  
-Fais une PR ou ouvre une issue, la communauté t’accueille avec un croissant.
-
----
-
-**Made with ❤️, React et un soupçon de baguette.**
+© 2024 frWithRaNii
 
 ---
