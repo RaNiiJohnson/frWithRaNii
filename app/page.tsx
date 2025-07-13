@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="px-4 space-y-12 sm:px-6">
-      {/* Introduction attractive */}
       <div className="flex flex-col gap-6 py-8 sm:text-center">
         <div className="space-y-4">
           <h1 className="text-4xl font-bold text-transparent md:text-6xl bg-gradient-to-r from-primary to-purple-600 bg-clip-text">
@@ -57,7 +56,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Contenu principal */}
       <div className="space-y-6 content-section">
         <h2 className="mb-8 text-3xl font-bold text-center text-foreground">
           Découvrez les alternatives
@@ -129,7 +127,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Pub pour vocabapp */}
       <div className="flex flex-col items-center justify-center max-w-5xl gap-6 p-8 mx-auto mt-16 shadow-lg bg-gradient-to-r from-primary/10 to-purple-100 dark:to-background/30 rounded-xl">
         <div className="space-y-2 sm:text-center">
           <h3 className="text-xl font-bold sm:text-2xl text-primary">
