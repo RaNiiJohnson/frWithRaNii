@@ -8,10 +8,10 @@ export default function Home() {
       {/* Introduction attractive */}
       <div className="flex flex-col gap-6 py-8 sm:text-center">
         <div className="space-y-4">
-          <h1 className="text-5xl font-bold text-transparent md:text-6xl bg-gradient-to-r from-primary to-purple-600 bg-clip-text">
+          <h1 className="text-4xl font-bold text-transparent md:text-6xl bg-gradient-to-r from-primary to-purple-600 bg-clip-text">
             Arrêtez de dire...
           </h1>
-          <p className="max-w-3xl mx-auto text-xl leading-relaxed md:text-2xl text-muted-foreground">
+          <p className="max-w-3xl mx-auto text-lg leading-relaxed md:text-2xl text-muted-foreground">
             Découvrez des alternatives plus riches et expressives pour enrichir
             votre français quotidien
           </p>
