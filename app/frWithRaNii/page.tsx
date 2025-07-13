@@ -11,7 +11,7 @@ import Merci from "@/features/Markdown/stopsaying/merci.mdx";
 import Non from "@/features/Markdown/stopsaying/non.mdx";
 import React from "react";
 
-export default function FrWithRaNii() {
+export default function Page() {
   return (
     <div className="space-y-12">
       {/* Introduction douce */}
@@ -30,45 +30,48 @@ export default function FrWithRaNii() {
 
       {/* Contenu principal */}
       <div className="space-y-6">
-        <Page title="Je sais / je comprends" header="Je Sais / Je Comprends">
+        <FrWithRaNii
+          title="Je sais / je comprends"
+          header="Je Sais / Je Comprends"
+        >
           <Jesais />
-        </Page>
-        <Page title="Cool" header="Cool">
+        </FrWithRaNii>
+        <FrWithRaNii title="Cool" header="Cool">
           <Cool />
-        </Page>
-        <Page title="Je pense que" header="Je Pense Que">
+        </FrWithRaNii>
+        <FrWithRaNii title="Je pense que" header="Je Pense Que">
           <Jepense />
-        </Page>
-        <Page title="Il faut" header="Il Faut">
+        </FrWithRaNii>
+        <FrWithRaNii title="Il faut" header="Il Faut">
           <Ilfaut />
-        </Page>
-        <Page title="Je travaille" header="Je Travaille">
+        </FrWithRaNii>
+        <FrWithRaNii title="Je travaille" header="Je Travaille">
           <Jetravaille />
-        </Page>
-        <Page title="Non" header="Non">
+        </FrWithRaNii>
+        <FrWithRaNii title="Non" header="Non">
           <Non />
-        </Page>
-        <Page title="Ça va?" header="Ça Va">
+        </FrWithRaNii>
+        <FrWithRaNii title="Ça va?" header="Ça Va">
           <Cava />
-        </Page>
-        <Page title="De rien" header="De rien">
+        </FrWithRaNii>
+        <FrWithRaNii title="De rien" header="De rien">
           <Derien />
-        </Page>
-        <Page title="Désolé" header="Désolé">
+        </FrWithRaNii>
+        <FrWithRaNii title="Désolé" header="Désolé">
           <Desole />
-        </Page>
-        <Page title="Merci" header="Merci">
+        </FrWithRaNii>
+        <FrWithRaNii title="Merci" header="Merci">
           <Merci />
-        </Page>
-        <Page title="Au revoir" header="Au Revoir">
+        </FrWithRaNii>
+        <FrWithRaNii title="Au revoir" header="Au Revoir">
           <Aurevoir />
-        </Page>
+        </FrWithRaNii>
       </div>
     </div>
   );
 }
 
-export const Page = ({
+const FrWithRaNii = ({
   title,
   header,
   children,
