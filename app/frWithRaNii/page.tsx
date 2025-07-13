@@ -15,12 +15,12 @@ export default function Page() {
   return (
     <div className="space-y-12">
       {/* Introduction douce */}
-      <div className="py-8 space-y-6 text-center">
+      <div className="py-8 space-y-6 md:text-center">
         <div className="space-y-4">
           <h1 className="text-4xl font-bold text-transparent md:text-5xl bg-gradient-to-r from-primary to-purple-600 bg-clip-text">
             Guide des alternatives
           </h1>
-          <p className="max-w-3xl mx-auto text-lg leading-relaxed md:text-xl text-muted-foreground">
+          <p className="max-w-3xl mx-auto text-base leading-relaxed md:text-xl text-muted-foreground">
             Découvrez comment enrichir votre vocabulaire français en remplaçant
             les expressions banales par des alternatives plus nuancées et
             expressives.
@@ -82,7 +82,7 @@ const FrWithRaNii = ({
 }) => {
   return (
     <div id={title}>
-      <div className="pb-6 text-4xl font-bold ">
+      <div className="pb-6 text-3xl font-bold md:text-4xl ">
         <span className="text-transparent bg-gradient-to-r from-primary to-purple-600 bg-clip-text">
           #
         </span>
